@@ -1,0 +1,47 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local datasets and generated data
+data/raw/
+data/bronze/
+data/silver/
+data/silver_clean/
+data/quarantine/
+data/incremental/
+data/models/
+data/logs/
+data/reports/
+
+# Local database files
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local temporary files
+*.tmp
+*.bak
